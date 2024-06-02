@@ -1,0 +1,14 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const addProductBtn = document.querySelector('.green');
+    const returnProductBtn = document.querySelector('.red');
+
+    addProductBtn.addEventListener('click', function() {
+        // Додайте код для переходу в додаток для додавання товару
+        window.location.href = "app://camera"; // Приклад URL для додатка камери
+    });
+
+    returnProductBtn.addEventListener('click', function() {
+        // Додайте код для переходу в додаток для повернення товару
+        window.location.href = "app://camera"; // Приклад URL для додатка камери
+    });
+});
